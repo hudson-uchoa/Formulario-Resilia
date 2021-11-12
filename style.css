@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap');
+
+body {
+    background-color: white;
+    font-family: 'Archivo', sans-serif;
+    font-display: bold;
+    text-align: center;
+    height: 816px;
+}
+
+.cabecalho{
+    color: #ffd000;
+    background-color: black;
+    padding: 12px;
+    position: relative;
+}
+
+.info{
+    background-color: white;
+    margin: 30%;
+    margin-top: 37px;
+    border: 4px;
+    box-shadow: #666 1px 1px 5px;
+    border-style:solid;
+    border-radius: 10px;
+    border-color: white;
+    padding: 17px;
+    width: auto;
+    height: 700px;
+}
+
+.curso {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+strong{
+    color: #ffd000;
+}
+
+.descricao{
+    color: black;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+.descricao2{
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+
+.blocos{
+    color: black;
+    padding: 20px;
+    width: auto;
+}
+
+.boxes{
+    padding: 0;
+    height: 30px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+    background-color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+label a {
+    text-decoration: none;
+}
+
+label a:hover {
+    color: #ffd000;
+    text-decoration: underline;
+}
+
+#botao-enviar{
+    background: #ffd000;
+    border-style: bold;
+    border-color: #ffd000;
+    border-radius: 3px;
+    height: 30px;
+    width: 300px;
+    font: bold 15px;
+}
+
+#botao-enviar:hover{
+    color:#ffd000;
+    border-color: #ffd000;
+    background: white;
+}
+
+#botao-enviar:active{
+    color: black;
+    border-color: white;
+    background: white;
+}
+
+.rodape {
+    background-color: black;
+    border-top: 1px;
+    border-color: #CCCCCC;
+    border-style: solid;
+    padding-top: 10px;
+}
+
+.rodape-imagem {
+    margin-top: 5px;
+    vertical-align: middle;
+    height: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.copyright {
+    padding-bottom: 20px;
+    color: white;
+}
